@@ -8,6 +8,7 @@ import Loading from '../Shared/Loading';
 const Login = () => {
 
     const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle(auth);
+
     const {
         register,
         formState: { errors },
@@ -21,7 +22,10 @@ const Login = () => {
       const navigate = useNavigate();
   const location = useLocation();
   let from = location.state?.from?.pathname || "/";
-
+       if(user || gUser){
+        navigate(from, { replace: true});
+       }
+       
   if (loading || gLoading) {
     return <Loading></Loading>;
   }
