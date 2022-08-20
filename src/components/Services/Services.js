@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Services = () => {
     return (
@@ -45,7 +46,10 @@ const Services = () => {
     </div>
   </div>
 </div>
-            </div>
+    </div>
+    <div className='text-center'>
+    <Link to="/courses"><button class="btn btn-primary">See more..</button></Link>
+     </div>
         </div>
     );
 };

@@ -11,6 +11,13 @@ const Blog = () => {
     <p>If a dog chews shoes whose shoes does he choose?</p>
   </div>
 </div>
+            <div class="card w-80 bg-base-100 shadow-xl mx-auto mt-8">
+  <figure><img src="https://img.freepik.com/premium-photo/programming-code-abstract-technology-background-software-developer-computer-script_34663-31.jpg?w=400" alt="Shoes" /></figure>
+  <div class="card-body">
+    <h2 class="card-title">Programming For Everybody</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+  </div>
+</div>
         </div>
     );
 };
