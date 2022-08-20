@@ -4,7 +4,7 @@ const Instructors = () => {
     return (
         <div>
             <h1 className='text-2xl text-center font-mono mt-12 mb-6 font-semibold'>Our Best Instructors</h1>
-            <div class="hero min-h-screen px-12">
+            <div class="hero min-h-screen">
   <div class="hero-content flex-col lg:flex-row-reverse px-12">
     <img src="https://placeimg.com/260/400/arch" class="max-w-sm rounded-lg shadow-2xl" alt=''/>
     <div>
