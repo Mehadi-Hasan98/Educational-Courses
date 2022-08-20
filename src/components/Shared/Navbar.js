@@ -34,7 +34,7 @@ const Navbar = () => {
         {menuItems}
       </ul>
     </div>
-    <a href='...' className="btn btn-ghost normal-case text-2xl font-mono font-bold text-rose-600">Educational Courses</a>
+    <a href='/' className="btn btn-ghost normal-case text-2xl font-mono font-bold text-rose-600">Educational Courses</a>
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal p-0">
