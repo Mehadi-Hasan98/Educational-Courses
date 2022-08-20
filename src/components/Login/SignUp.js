@@ -31,7 +31,7 @@ const SignUp = () => {
     if (error || gError || updateError) {
         signInError = <p className='text-red-500'><small>{error?.message || gError?.message || updateError?.message}</small></p>
     }
-     if(user){
+     if(user || gUser){
         navigate('/courses');
      }
     const onSubmit = async data => {

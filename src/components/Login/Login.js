@@ -20,11 +20,10 @@ const Login = () => {
 
       let signInError;
       const navigate = useNavigate();
-  const location = useLocation();
-  let from = location.state?.from?.pathname || "/";
-       if(user || gUser){
-        navigate(from, { replace: true});
-       }
+      const location = useLocation();
+      let from = location.state?.from?.pathname || "/";
+
+       
        
   if (loading || gLoading) {
     return <Loading></Loading>;
